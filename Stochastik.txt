@@ -1,0 +1,49 @@
+Na bitte. Drehen war doch nicht so schwer.
+
+Aufgabe 1 (oder was auch immer das ist)
+
+a) Vierfeldertafel: Zeile 1:  0,2  0,6  0,8
+
+                            Zeile 2: 0,1  0,1   0,2
+
+                            Zeile 3: 0,3  0,7
+
+b) Da du jetzt die Wahrscheinlichkeiten der ganzen Schnitte kennst, kannst du b schell lösen, da PA(B) = (P(A ^ B) / P(A))
+
+wobei das ^ für Schnitt steht und nicht Potenz.
+
+c) A und B sind abhängig, weil z.B. P(A) * P(B) = 0,24 und nicht 0,1. Da das aber für unabh. Ereihnisse gelten müsste, müssen sie abhängig sein.
+
+Aufgabe 2
+
+a) wahr (siehe Def Vierfeldertafel. Da sollte das so oder so ähnlich drin stehen)
+b) falsch (da das zwar möglich ist, aber keine Vorraussetzungen in der Vierfeldertafel)
+c) wahr (Summe der Wahrscheinlichkeiten von Ereignis und Gegenereignis ist immer gleich 1)
+d) falsch (der Quotient A/C = P(E|F)
+e) wahr (Feld A = P(A ^ B) = P(A) * P(B), wenn A und B unabh. --> Feld A / P(A) = P(B) daraus folgt P(A ^ B) = P(A) * P(B) --> unabh.)
+(Auch wenn das nach Muster aussieht.... es stimmt)
+
+Aufgabe 3 a)
+
+							/|\
+						       / | \
+						      /  |  \
+						     1   2   3
+						    /|\ /|\ /|\
+						   1 23 123 12 3
+Wahrscheinlichkeiten noch zu beschriften. Pro Ast noch jeweils 1/3 da alles gleichwahrscheinlich ist, da alle Felder gleich groß. Unten noch die Pfadwhrscheinlichkeiten 
+ergänzen, was in jedem Fall noch 1/9 wären, da 1/3 * 1/3
+
+b) E = 1/3 --> 1 im ersten Durchlauf
+   F = 5/9 --> Summe der Zahlen gerade
+   Vierfeldertafel: Zeile 1: 2/9  3/9  5/9
+		    Zeile 2: 1/9  3/9  4/9
+		    Zeile 3: 1/3  2/3   1
+c) anhängig, da 1/3 * 5/9 = 5/27 und nicht 2/9. Damit gilt nicht P(A ^ B) = P(A) * P(B) --> abhängig
+   die bedingte Wahrscheinlichkeit P(A|B) = (2/9) : (5/9) = 18/45 =/= P(A)
+   
+   Mehr Arten das zu begründen fallen mir jetzt auf Anhieb auch nicht ein. 
+
+Aufgabe 4: Kann ich dir leider auch nicht helfen, weil ich nur eine Art von Baumdiagramm kenne. Ist auch schon 5 Jahre her, dass ich das mal machen musste .....
+
+Und ich hab keine Ahnung warum ich das überhaupt mache XD. 
